@@ -14,6 +14,6 @@ class Scraper
   # ipad_card = [names, prices, years]
   ipads << ipad_card
 
-      p "#{names} #{prices}€"
+    p "#{names} #{prices}€"
   end
 end

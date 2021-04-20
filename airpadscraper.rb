@@ -22,10 +22,10 @@ ipads = []
     end
   end
 
-  def get_years
-    years = parsed_page.search("._3OcKBk8D.y7fDboA8_-UMGGxPRpiU_").each do |element|
-      # p element.text
-    end
+  # def get_years
+  #   years = parsed_page.search("._3OcKBk8D.y7fDboA8_-UMGGxPRpiU_").each do |element|
+  #     # p element.text
+  #   end
   end
 
   scraper = Scraper.new
